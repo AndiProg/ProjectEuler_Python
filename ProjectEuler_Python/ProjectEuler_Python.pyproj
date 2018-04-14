@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37aef7e6-b0af-4d63-ac9d-330adf1cf91b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>0023\0023.py</StartupFile>
+    <StartupFile>0025.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="0023\0023.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0025.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0026.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="functions.py" />
