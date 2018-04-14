@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37aef7e6-b0af-4d63-ac9d-330adf1cf91b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProjectEuler_Python.py</StartupFile>
+    <StartupFile>0021.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProjectEuler_Python.py" />
+    <Compile Include="0021.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="functions.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
