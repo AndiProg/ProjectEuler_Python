@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37aef7e6-b0af-4d63-ac9d-330adf1cf91b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>0023.py</StartupFile>
+    <StartupFile>0023\0023.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,10 +27,13 @@
     <Compile Include="0022.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="0023.py">
+    <Compile Include="0023\0023.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="functions.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="0023\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
