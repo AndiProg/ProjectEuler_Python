@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37aef7e6-b0af-4d63-ac9d-330adf1cf91b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>0025.py</StartupFile>
+    <StartupFile>0484.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="0001.py" />
+    <Compile Include="0002.py" />
+    <Compile Include="0003.py" />
+    <Compile Include="0004.py" />
+    <Compile Include="0005.py" />
+    <Compile Include="0006.py" />
+    <Compile Include="0007.py" />
+    <Compile Include="0008.py" />
+    <Compile Include="0009.py" />
+    <Compile Include="0010.py" />
+    <Compile Include="0011.py" />
     <Compile Include="0021.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +45,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="0026.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="0484.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="functions.py" />
